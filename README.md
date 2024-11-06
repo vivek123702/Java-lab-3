@@ -11,6 +11,10 @@ For high-level positions, an `ExecutiveEmployee` class extends `SalariedEmployee
 The system incorporates data validation for attributes like `hourlyRate`, `hoursWorked`, `monthlySalary`, and `bonusPercentage` to ensure values are within acceptable ranges. This helps maintain data integrity and prevents errors in payroll calculations. Additionally, each class has a `displayEmployeeInfo()` method tailored to provide detailed, role-specific salary and bonus information, supporting a clear overview of each employee’s earnings. This modular setup not only organizes payroll information effectively but also allows easy expansion to include other employee roles and payment structures if needed.
 
 
+
+
+
+
 Lab 3b
 
 The `PayrollTest` Java class is a test driver designed to demonstrate the functionality of a payroll system by creating different types of employee instances, displaying their information, and calculating the total payroll for all employees. This class primarily interacts with the `PayrollSystem` class, which acts as a central management system for employee data and payroll calculations.
